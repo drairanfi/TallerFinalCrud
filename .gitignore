@@ -1,0 +1,22 @@
+# Ignorar dependencias de Node en cualquier subcarpeta
+**/node_modules/
+
+# Ignorar archivos de entorno
+**/.env
+**/.env.*
+
+# Ignorar logs
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# Ignorar carpetas de compilación de React/Vite
+**/dist/
+**/build/
+
+# Ignorar archivos del sistema
+.DS_Store
+
+# Ignorar archivos temporales
+*.tmp
+*.swp
